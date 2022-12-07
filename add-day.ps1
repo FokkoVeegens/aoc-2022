@@ -11,3 +11,4 @@ $null = New-Item -Path ".\$($daynum)_1.ps1" -ItemType File
 $null = New-Item -Path ".\$($daynum)_2.ps1" -ItemType File
 $null = New-Item -Path ".\input.txt" -ItemType File
 $null = New-Item -Path ".\input_test.txt" -ItemType File
+Pop-Location
